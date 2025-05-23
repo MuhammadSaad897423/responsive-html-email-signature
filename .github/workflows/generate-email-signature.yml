@@ -27,8 +27,8 @@ jobs:
           THEME: dark
         run: |
           npm run generate:conf ${{ env.THEME }}
-      - name: Install NPM and Generate Signature
-        run: |
+   M and Generate Signature
+        run: |   - name: Install NP
           npm -v
           node -v
           npm install
